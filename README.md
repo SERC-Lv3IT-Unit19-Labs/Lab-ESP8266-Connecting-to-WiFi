@@ -34,7 +34,7 @@ Q1. What makes the Raspberry Pi suitable to act as an Access Point?
 
 ### Instructions
 
-1. Open the [wifi-exercise-1](arduino/wifi-exercise-1.ino) sketch.
+1. Open the [wifi-exercise-1](arduino/wifi-exercise-1/wifi-exercise-1.ino) sketch.
 
 1. In the appropriate point in the code, enter the SSID and passphrase for the WiFi access point. These need to be entered as strings.
 
@@ -60,7 +60,7 @@ In this exercise, we are going to move the WiFi access point settings to a seper
 
 ### Instructions
 
-1. Open the 2nd '[wifi-exercise-2](arduino/wifi-exercise-2.ino)' sketch.
+1. Open the 2nd '[wifi-exercise-2](arduino/wifi-exercise-2/wifi-exercise-2.ino)' sketch.
 
 1. In the appropriate point in the code, enter the SSID and passphrase for the WiFi access point. These need to be entered as strings.
 
