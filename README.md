@@ -32,6 +32,8 @@ In this exercise, we will connect the ESP8266 to a Raspberry Pi that has been co
 
 Q1. What makes the Raspberry Pi suitable to act as an Access Point?
 
+![system diagram](assets/WiFi-Lab.png)
+
 ### Instructions
 
 1. Open the [wifi-exercise-1](arduino/wifi-exercise-1/wifi-exercise-1.ino) sketch.
