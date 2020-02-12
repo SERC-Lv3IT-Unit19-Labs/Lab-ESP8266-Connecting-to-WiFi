@@ -76,6 +76,7 @@ In this exercise, we are going to move the WiFi access point settings to a seper
     ![serial monitor button](assets/serial-monitor-button.png)
 
 Q3. How are the configuration settings loaded into our sketch?
+
 Q4. How is it different from how the WiFi libary is imported?
 
 ## Exercise 3
