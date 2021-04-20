@@ -36,18 +36,18 @@ Q1. What makes the Raspberry Pi suitable to act as an Access Point?
 
 ### Instructions
 
-1. Open the [wifi-exercise-1](arduino/wifi-exercise-1/wifi-exercise-1.ino) sketch.
+1. Arduino IDE: Open the [wifi-exercise-1](arduino/wifi-exercise-1/wifi-exercise-1.ino) sketch.
+
+   Micropython: Open the `boot.py` file in the micropython folder.
 
 1. In the appropriate point in the code, enter the SSID and passphrase for the WiFi access point. These need to be entered as strings.
 
     * SSID = PiDev-WiFi
     * Passphrase = AardvarkBadger
 
-1. Upload the sketch to the device
+1. Upload the sketch / scripts to the device
 
 1. Open the serial monitor and check the device is connecting to the WiFi access point.
-
-    ![serial monitor button](assets/serial-monitor-button.png)
 
 Q2. What is the IP address reported of your ESP8266?
 
@@ -58,28 +58,30 @@ Sometimes it is beneficial to put configuration settings into a seperate configu
 * our project grows in complexity. Keeping settings in one place makes it easier to update them,
 * Or, we want to be able to easily copy settings between similar projects.
 
-In this exercise, we are going to move the WiFi access point settings to a seperate `config.h` file.
+In this exercise, we are going to move the WiFi access point settings to a seperate `config.h` / `config.py` file.
 
 ### Instructions
 
-1. Open the 2nd '[wifi-exercise-2](arduino/wifi-exercise-2/wifi-exercise-2.ino)' sketch.
+1. Arduino IDE: Open the 2nd '[wifi-exercise-2](arduino/wifi-exercise-2/wifi-exercise-2.ino)' sketch.
+
+   Micropython: Open the `config.py` file.
 
 1. In the appropriate point in the code, enter the SSID and passphrase for the WiFi access point. These need to be entered as strings.
 
     * SSID = PiDev-WiFi
     * Passphrase = AardvarkBadger
 
-1. Upload the sketch to the device
+1. Arduino IDE: Upload the sketch to the device
+
+   Micropython: modify the `boot.py` file to use the settings in the config file instead.
 
 1. Open the serial monitor and check the device is connecting to the WiFi access point.
-
-    ![serial monitor button](assets/serial-monitor-button.png)
 
 Q3. How are the configuration settings loaded into our sketch?
 
 Q4. How is it different from how the WiFi libary is imported?
 
-## Exercise 3
+## Exercise 3 - Arduino IDE only
 
 The second sketch also has a line of code that generates a hostname for the device. A hostname makes it easier to find and identify a device on a network (rather than trying to use it's IP address.)
 
